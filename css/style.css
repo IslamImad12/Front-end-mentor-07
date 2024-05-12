@@ -1,0 +1,52 @@
+body {
+
+}
+:root {
+    --Color1:hsl(171, 66%,  44%);
+    --Color2:hsl(233, 100%, 69%);
+    --Color3:hsl(210, 10%,  33%);
+    --Color4:hsl(201, 11%,  66%);
+}
+header {
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+    padding-top: 2%;
+}
+.section-two {
+
+}
+.image1 {
+    position: relative;
+    left: -150px;
+}
+p {
+    color: var(--Color4);
+}
+footer {
+    background-color: hsla(202, 11%, 66%, 0.466);
+}
+.ios {
+    background-color: var(--Color1);
+    border: none;
+    border-radius: 50px ;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.ios:hover {
+    background-color: var(--Color1) !important;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.mac {
+    background-color: var(--Color2);
+    border: none;
+    border-radius: 50px ;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.mac:hover {
+    background-color: var(--Color2) !important;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
